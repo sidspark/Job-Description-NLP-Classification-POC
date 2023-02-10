@@ -53,10 +53,8 @@ File Descriptions:
 - Model predicts the test data: JDTesting.xlsx.
 - Model also predicts and displays 20 random sample from the validation data itself.
 
-##### F-1 Score
-
-F1 Score achieved: ***72.84***
-
+#### F1 Score: ***72.84***
+---
 ##### Deploying it in Postman
 
   
