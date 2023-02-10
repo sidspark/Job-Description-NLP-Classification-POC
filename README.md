@@ -38,6 +38,9 @@ File Descriptions:
 ### Process
 ##### Training
 
+- Simple run the train and test file: MLB_LR-JD_Classification_POC.ipynb in your environment.
+- It takes train data: IndeedJobsProcessed.xlsx as an input &#8594 preprocesses the data,
+
 ##### Testing and F-1 Score
 
 ##### Deploying it in Postman
