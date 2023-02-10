@@ -1,2 +1,2 @@
 # POC for Job Description NLP Classification
-## Environtment: *Jupyter Notebook* ; Language: *Python*
+### Environment: *Jupyter Notebook* | Language: *Python*
