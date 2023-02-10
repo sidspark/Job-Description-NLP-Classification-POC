@@ -6,7 +6,7 @@
 
 ###### Project Overview: Given a job description, predict which job category it belongs to.
 -----
-###### Before we start
+### Before We Start
 
 Abbreviations:
 - Techinal:
