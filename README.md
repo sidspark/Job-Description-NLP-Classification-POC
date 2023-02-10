@@ -47,12 +47,15 @@ File Descriptions:
   - Lemmatization and Tokenization.
 - Frquency of each words w.r.t to its categories is displayed for better understanding.
 
-##### Testing and F-1 Score
+##### Testing
 
 - The trained data is then validated again the remaining data (0.2).
-- F1 Score achieved: ***72.84***
 - Model predicts the test data: JDTesting.xlsx.
 - Model also predicts and displays 20 random sample from the validation data itself.
+
+##### F-1 Score
+
+F1 Score achieved: ***72.84***
 
 ##### Deploying it in Postman
 
