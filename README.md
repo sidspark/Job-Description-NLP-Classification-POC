@@ -83,6 +83,7 @@
 ##### Output:
   - Details of the applicant/user.
   - The classification of his job description.
-  - Similar job based on the predicred classification. (Top 2 matched)
+  - Similar job based on the predicred classification. (any 2 matched)
     - This is done by connecting to the thrid and last db for extra job descriptions.
 ---
+### Important Notes
