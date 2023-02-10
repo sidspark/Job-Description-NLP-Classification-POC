@@ -1,2 +1,2 @@
-# POC Job Description NLP Classification
-Working POC for a job description classification using Python
+# POC for Job Description NLP Classification
+## Environtment: *Jupyter Notebook* ; Language: *Python*
