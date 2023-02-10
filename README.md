@@ -56,7 +56,7 @@ File Descriptions:
 #### F1 Score: ***72.84***
 ---
 ##### Deploying it in Postman
-***Method: POST | URL: localhost:5000/predict***
+##### ***Method: POST*** | ***URL: localhost:5000/predict***
 
 Sample json input for Postman:
 ```
