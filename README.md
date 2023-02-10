@@ -3,6 +3,5 @@
 ##### Language: *Python* | Libraries: *Sklearn, NLTK*
 ##### Deployment: *Postman*
 
-##### Project Overview:
-Given a job description, predict which job category it belongs to.
+###### Project Overview: Given a job description, predict which job category it belongs to.
 
