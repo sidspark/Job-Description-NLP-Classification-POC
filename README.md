@@ -55,7 +55,7 @@
 
 #### F1 Score: ***72.84***
 ---
-#### Deploying it in Postman
+### Deploying it in Postman
 ##### ***Method: POST*** | ***URL: localhost:5000/predict***
 
 ##### Sample json input for Postman:
@@ -73,5 +73,16 @@
 ]
 ```
 
+#### Process
+##### Name and Password from json connect to the login db.
+  - If authenticated → fetch the persons details along with his job description from applicants info db → classification is displayed.
+  - If not → 
+    - If registration is *"yes"* → create new user in both dbs mentioned above → run POST again for classification to be displayed.
+    - If registration is *"no"* → try again with valid credentials.
 
+##### Output:
+  - Details of the applicant/user.
+  - The classification of his job description.
+  - Similar job based on the predicred classification. (Top 2 matched)
+    - This is done by connecting to the thrid and last db for extra job descriptions.
 
