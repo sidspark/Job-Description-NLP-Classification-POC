@@ -1,12 +1,13 @@
 ## POC for Job Description NLP Classification
 ---
 ##### Environment: *Jupyter Notebook* 
-##### Language: *Python* | Libraries: *Sklearn, NLTK, SQLite3*
+##### Language: *Python* | Libraries: *Sklearn, NLTK, SQLite3, Flask*
 ##### Deployment: *Postman*
 
 ###### Project Overview: Given a job description, predict which job category it belongs to.
 -----
-Abbreviation:
+####### Before we start
+Abbreviations:
 - Techinal:
   - MLB : Multi Label Binarizer
   - LR : Logistic Regression
@@ -33,6 +34,7 @@ File Descriptions:
     - Saved Weights for TF-IDF: vectorizerJD_POC_V01.pickle
 ----
   
+Process
   
 
 
