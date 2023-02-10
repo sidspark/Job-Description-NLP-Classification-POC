@@ -35,7 +35,13 @@ File Descriptions:
     - Saved Weights for TF-IDF: vectorizerJD_POC_V01.pickle
 ----
   
-Process
+### Process
+##### Training
+
+##### Testing and F-1 Score
+
+##### Deploying it in Postman
+
   
 
 
