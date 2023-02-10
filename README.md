@@ -39,9 +39,20 @@ File Descriptions:
 ##### Training
 
 - Simple run the train and test file: MLB_LR-JD_Classification_POC.ipynb in your environment.
-- It takes train data: IndeedJobsProcessed.xlsx as an input &#8594 preprocesses the data,
+- It takes train data: IndeedJobsProcessed.xlsx → preprocesses → creates features → splits (0.2) → trains → saves model and weights.
+- The preprocessing steps takes care of:
+  - Cleaning: takes are of whitespaces, converts to lowercase, keep alphabets only, etc.
+  - Stopwords: NLTK library.
+  - 'Other' words: words that are common. For example: job, year, etc.
+  - Lemmatization and Tokenization.
+- Frquency of each words w.r.t to its categories is displayed for better understanding.
 
 ##### Testing and F-1 Score
+
+- The trained data is then validated again the remaining data (0.2).
+- F1 Score achieved: ***72.84***
+- Model predicts the test data: JDTesting.xlsx.
+- Model also predicts and displays 20 random sample from the validation data itself.
 
 ##### Deploying it in Postman
 
