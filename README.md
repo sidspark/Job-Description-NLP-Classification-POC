@@ -56,7 +56,22 @@ File Descriptions:
 #### F1 Score: ***72.84***
 ---
 ##### Deploying it in Postman
+***Method: POST | URL: localhost:5000/predict***
 
-  
+Sample json input for Postman:
+'''
+[
+  {
+    "name": "John Doe",
+    "password": "JohnDoes@123#",
+    "register": "No",
+    "_comment": "Below only activates is the user is new and the register is set to yes",
+    "number": 8177774344,
+    "job_description": "duties such as implementing behavior guidelines, preparing class activities, using various teaching methods, assigning homework, giving tests, and monitoring student academic performance. They may also be required to manage classroom materials and inventory.",
+    "address": "2 Abes, 12 Lincon Rd., Fakesville."
+  }
+]
+'''
+
 
 
