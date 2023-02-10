@@ -6,7 +6,8 @@
 
 ###### Project Overview: Given a job description, predict which job category it belongs to.
 -----
-####### Before we start
+###### Before we start
+
 Abbreviations:
 - Techinal:
   - MLB : Multi Label Binarizer
