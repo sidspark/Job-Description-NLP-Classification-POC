@@ -8,7 +8,7 @@
 -----
 ### Before We Start
 
-##### Abbreviations:
+#### Abbreviations:
 - Techinal:
   - MLB : Multi Label Binarizer
   - LR : Logistic Regression
@@ -16,7 +16,7 @@
   - JD : Job Description
   - POC : Proof of Concept
 
-##### File Descriptions:
+#### File Descriptions:
 - Main Directory:
   - Using MLB and LR
     - Train and test file: MLB_LR-JD_Classification_POC.ipynb
@@ -36,7 +36,7 @@
 ----
   
 ### Process
-##### Training
+#### Training
 
 - Simple run the train and test file: MLB_LR-JD_Classification_POC.ipynb in your environment.
 - It takes train data: IndeedJobsProcessed.xlsx → preprocesses → creates features → splits (0.2) → trains → saves model and weights.
@@ -47,7 +47,7 @@
   - Lemmatization and Tokenization.
 - Frquency of each words w.r.t to its categories is displayed for better understanding.
 
-##### Testing
+#### Testing
 
 - The trained data is then validated again the remaining data (0.2).
 - Model predicts the test data: JDTesting.xlsx.
@@ -55,7 +55,7 @@
 
 #### F1 Score: ***72.84***
 ---
-##### Deploying it in Postman
+#### Deploying it in Postman
 ##### ***Method: POST*** | ***URL: localhost:5000/predict***
 
 ##### Sample json input for Postman:
