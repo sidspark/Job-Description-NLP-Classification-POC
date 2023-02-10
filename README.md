@@ -59,7 +59,7 @@ File Descriptions:
 ***Method: POST | URL: localhost:5000/predict***
 
 Sample json input for Postman:
-'''
+```
 [
   {
     "name": "John Doe",
@@ -71,7 +71,7 @@ Sample json input for Postman:
     "address": "2 Abes, 12 Lincon Rd., Fakesville."
   }
 ]
-'''
+```
 
 
 
