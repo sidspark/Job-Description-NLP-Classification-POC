@@ -8,7 +8,7 @@
 -----
 ### Before We Start
 
-Abbreviations:
+##### Abbreviations:
 - Techinal:
   - MLB : Multi Label Binarizer
   - LR : Logistic Regression
@@ -16,7 +16,7 @@ Abbreviations:
   - JD : Job Description
   - POC : Proof of Concept
 
-File Descriptions:
+##### File Descriptions:
 - Main Directory:
   - Using MLB and LR
     - Train and test file: MLB_LR-JD_Classification_POC.ipynb
@@ -58,7 +58,7 @@ File Descriptions:
 ##### Deploying it in Postman
 ##### ***Method: POST*** | ***URL: localhost:5000/predict***
 
-Sample json input for Postman:
+##### Sample json input for Postman:
 ```
 [
   {
