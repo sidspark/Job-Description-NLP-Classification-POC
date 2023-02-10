@@ -33,6 +33,9 @@
     - Trained Model: JDClassificationPOC_V01.sav
     - Saved Weights for MLB: multilable_binarizerJD_POC_V01.pickle
     - Saved Weights for TF-IDF: vectorizerJD_POC_V01.pickle
+##### Python Files Folder:
+  - Saved .py files for the .ipynb files.
+  - This can be run on cmd or terminal.
 ----
   
 ### Training Process
