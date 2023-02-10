@@ -89,14 +89,14 @@
 ### Important Notes
 - We are only training on *480* rows of data from each of the following categories:
   - Bank
-  - Information Technology: Software Devlopers only
+  - Information Technology: Software Developers only
   - Medical
   - Sales
   - HR
   - Customer Service
   - Visual Communications: Graphic Design and copywriters only
 
-- Accuracy can be further improved by tweaking parameters. This is only a POC.
+- Accuracy can be further improved by tweaking parameters. This is only a ***POC***.
 - I will be developing and testing different ML models for better performance and accuracy.
 - Incrememental training is not possible in this model.
 - This model support multi-label classification for each job description provided the training data contains categories in the following format:
