@@ -9,26 +9,26 @@
 ### Before We Start
 
 #### Abbreviations:
-- Techinal:
+##### Techinal:
   - MLB : Multi Label Binarizer
   - LR : Logistic Regression
-- Non-Technical:
+##### Non-Technical:
   - JD : Job Description
   - POC : Proof of Concept
 
 #### File Descriptions:
-- Main Directory:
+##### Main Directory:
   - Using MLB and LR
     - Train and test file: MLB_LR-JD_Classification_POC.ipynb
     - Postman Deployment file: MLB_LR-Postman_JD.ipynb
-- Dataset Folder:
+##### Dataset Folder:
   - Train data: IndeedJobsProcessed.xlsx (480 samples from 6 different categories)
   - Test data: JDTesting.xlsx (1 record for testing)
-- Database Folder:
+##### Database Folder:
   - Dummy Login Info: job_applicants_login.db (2 users)
   - Applicants Info: job_applicants.db (w.r.t 2 user from above)
   - Extra Job Descriptions: job_description.db (25 records per category)
-- Save Model Files Folder:
+##### Save Model Files Folder:
   - Saving MLB LR
     - Trained Model: JDClassificationPOC_V01.sav
     - Saved Weights for MLB: multilable_binarizerJD_POC_V01.pickle
@@ -77,7 +77,7 @@
 ##### Name and Password from json connect to the login db.
   - If authenticated → fetch the persons details along with his job description from applicants info db → classification is displayed.
   - If not → 
-    - If registration is *"yes"* → create new user in both dbs mentioned above → run POST again for classification to be displayed.
+    - If registration is *"yes"* → create new user in both dbs mentioned above → run *POST* again for classification to be displayed.
     - If registration is *"no"* → try again with valid credentials.
 
 ##### Output:
@@ -85,4 +85,4 @@
   - The classification of his job description.
   - Similar job based on the predicred classification. (Top 2 matched)
     - This is done by connecting to the thrid and last db for extra job descriptions.
-
+---
