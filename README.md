@@ -6,8 +6,16 @@
 
 ###### Project Overview: Given a job description, predict which job category it belongs to.
 -----
+Abbreviation:
+- Techinal:
+  - MLB : Multi Label Binarizer
+  - LR : Logistic Regression
+- Non-Technical:
+  - JD : Job Description
+  - POC : Proof of Concept
+
 
 File Descriptions:
 - Main Directory:
-  - Train and test file: Job_Description_Classification_Sample_POC_v_1.0_MLB_LR.ipynb
-  - Postman Deployment .ipynb file: Final_JD_Postman_MLB_LR.ipynb
+  - Train and test file: JD_Classification_POC_MLB_LR.ipynb
+  - Postman Deployment .ipynb file: Postman_JD_MLB_LR.ipynb
