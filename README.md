@@ -35,7 +35,7 @@
     - Saved Weights for TF-IDF: vectorizerJD_POC_V01.pickle
 ----
   
-### Process
+### Training Process
 #### Training
 
 - Simple run the train and test file: MLB_LR-JD_Classification_POC.ipynb in your environment.
@@ -73,7 +73,7 @@
 ]
 ```
 
-#### Process
+#### Postman Process
 ##### Name and Password from json connect to the login db.
   - If authenticated → fetch the persons details along with his job description from applicants info db → classification is displayed.
   - If not → 
