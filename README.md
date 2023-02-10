@@ -17,5 +17,5 @@ Abbreviation:
 
 File Descriptions:
 - Main Directory:
-  - Train and test file: JD_Classification_POC_MLB_LR.ipynb
-  - Postman Deployment .ipynb file: Postman_JD_MLB_LR.ipynb
+  - Train and test file: MLB_LR-JD_Classification_POC.ipynb
+  - Postman Deployment file: MLB_LR-Postman_JD.ipynb
