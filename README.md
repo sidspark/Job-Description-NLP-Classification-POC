@@ -1,10 +1,10 @@
 ## POC for Job Description NLP Classification
 ---
-##### __Environment__: *Jupyter Notebook* 
-##### __Language__: *Python* | Libraries: *Sklearn, NLTK, SQLite3, Flask*
-##### __Deployment__: *Postman*
+##### **Environment**: *Jupyter Notebook* 
+##### **Language**: *Python* | Libraries: *Sklearn, NLTK, SQLite3, Flask*
+##### **Deployment**: *Postman*
 
-###### __Project Overview__: Given a job description, predict which job category it belongs to.
+###### **Project Overview**: Given a job description, predict which job category it belongs to.
 -----
 ### Before We Start
 
